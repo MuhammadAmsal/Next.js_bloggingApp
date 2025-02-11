@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Fira_Code } from "next/font/google";
 import "./globals.css";
-import Navbar from "./components/Navbar";
-import { Provider } from "./utils/Provider";
+import Navbar from "../components/Navbar";
+import { Provider } from "../utils/Provider";
 
 // Import Fira Code font
 const firaCode = Fira_Code({ subsets: ["latin"], weight:"600" });
