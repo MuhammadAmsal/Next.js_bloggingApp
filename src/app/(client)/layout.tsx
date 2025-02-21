@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 import { Provider } from "../utils/Provider";
 
 // Import Fira Code font
-const firaCode = Fira_Code({ subsets: ["latin"], weight:"600" });
+const firaCode = Fira_Code({ subsets: ["latin"], weight: "700" });
 
 export const metadata: Metadata = {
   title: "Create Next App",

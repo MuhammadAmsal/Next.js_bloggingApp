@@ -40,11 +40,12 @@ export const post={
             type:'image',
             fields:[{type:"text",name:"alt",title:"Alt",}]
         }]
-        },{
+        }
+        ,{
             name:"tags",
             title:"Tags",
             type:"array",
-            of:[{type:"refrence", to:[{type:"tag"}]}],
+            of:[{type:"reference", to:[{type:"tag"}]}],
             
         }
     ]
