@@ -1,3 +1,4 @@
+
 import {client} from "@/sanity/lib/client"
 import Header from "../components/Header";
 import { Post } from "../utils/interface";
@@ -24,7 +25,7 @@ export const revalidate= 60
 
 export default async function Home() {
   const posts:Post[]=await getPosts();
-  console.log(posts,"posts");
+   
   return (
     <div>
       <Header title="Articles"/>
