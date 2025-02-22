@@ -27,13 +27,13 @@ export default async function Home() {
   const posts:Post[]=await getPosts();
    
   return (
-    <div>
+    < >
       <Header title="Articles"/>
       <div>
        {posts?.length>0 && posts?.map((post)=>{
          return <PostComponent key={post?._id} post={post} />
        })}
       </div>
-      </div>
+      </ >
   )
 }
